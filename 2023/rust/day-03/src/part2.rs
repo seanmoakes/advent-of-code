@@ -122,7 +122,6 @@ pub fn process(input: &str) -> miette::Result<String, AocError> {
         }
     }
 
-    println!()
     Ok(total.to_string())
 }
 
